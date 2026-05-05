@@ -47,3 +47,11 @@ class BelahKetupat { // Commit 6:  buat class BelahKetupat dengan variabel priva
             cout << "Diagonal 2 : "; cin >> d2;
             cout << "Sisi       : "; cin >> sisi;
         }
+
+        float luas() { // Commit 8:  tambah method luas dan keliling pada BelahKetupat
+            return (d1 * d2) / 2;
+        }
+
+        float keliling() {
+            return 4 * sisi;
+        }
