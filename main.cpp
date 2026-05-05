@@ -64,3 +64,12 @@ class BelahKetupat { // Commit 6:  buat class BelahKetupat dengan variabel priva
 
         friend void kelilingGabungan(BelahKetupat &bk, LayangLayang &ll); // Commit 10: tambah deklarasi friend method pada kedua class
 };
+
+void kelilingGabungan(BelahKetupat &bk, LayangLayang &ll) { // Commit 11: implementasi isi friend method kelilingGabungan
+    float totalBK = 4 * bk.sisi;
+    float totalLL = 2 * (ll.sisi1 + ll.sisi2);
+    cout << "-- Keliling Gabungan (Friend Method) --" << endl;
+    cout << "Keliling BelahKetupat : " << totalBK << endl;
+    cout << "Keliling LayangLayang : " << totalLL << endl;
+    cout << "Total                 : " << totalBK + totalLL << endl;
+}
