@@ -6,6 +6,7 @@
 // Commit 6: tambah method setId dan displayAll pada class siswa
 // Commit 7: implementasi method displayAll milik class siswa
 // Commit 8: implementasi method setNama milik class orang
+// Commit 9: implementasi method setId milik class siswa
 
 #include <iostream>
 #include <string>
@@ -40,4 +41,9 @@ void siswa::displayAll(orang &a)
 void orang::setNama(string pNama)
 {
     nama = pNama;
+}
+
+void siswa::setId(int pId)
+{
+    id = pId;
 }
