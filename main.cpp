@@ -73,3 +73,14 @@ void kelilingGabungan(BelahKetupat &bk, LayangLayang &ll) { // Commit 11: implem
     cout << "Keliling LayangLayang : " << totalLL << endl;
     cout << "Total                 : " << totalBK + totalLL << endl;
 }
+
+int main() { // Commit 12: buat fungsi main dan panggil object LayangLayang
+    cout << "=============================" << endl;
+    cout << "   PROGRAM BANGUN DATAR" << endl; 
+    cout << "=============================" << endl << endl;
+
+    LayangLayang ll;
+    ll.input();
+    cout << endl;
+    ll.output();
+    cout << endl;
