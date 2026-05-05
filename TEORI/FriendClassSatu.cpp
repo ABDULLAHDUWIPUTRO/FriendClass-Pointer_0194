@@ -2,6 +2,7 @@
 // Commit 2: buat forward declaration class siswa dan class orang
 // Commit 3: tambah variabel private nama pada class orang
 // Commit 4: tambah method setNama dan friend class siswa pada class orang
+// Commit 5: buat class siswa dengan variabel private id
 
 #include <iostream>
 #include <string>
@@ -16,4 +17,10 @@ private:
 public:
     void setNama(string pNama);
     friend class siswa;
+};
+
+class siswa
+{
+private:
+    int id;
 };
