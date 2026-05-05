@@ -39,3 +39,11 @@ class LayangLayang {
 class BelahKetupat { // Commit 6:  buat class BelahKetupat dengan variabel private
     private:
         float d1, d2, sisi;
+
+    public:
+        void input() { // Commit 7:  tambah method input pada BelahKetupat
+            cout << "-- Input Belah Ketupat --" << endl;
+            cout << "Diagonal 1 : "; cin >> d1;
+            cout << "Diagonal 2 : "; cin >> d2;
+            cout << "Sisi       : "; cin >> sisi;
+        }
