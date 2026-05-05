@@ -91,3 +91,7 @@ int main() { // Commit 12: buat fungsi main dan panggil object LayangLayang
     bk.output();
     cout << endl;
 
+    kelilingGabungan(bk, ll); // Commit 14: panggil friend method kelilingGabungan di main
+
+    return 0;
+}
