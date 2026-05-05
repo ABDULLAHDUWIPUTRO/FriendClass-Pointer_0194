@@ -76,7 +76,7 @@ void kelilingGabungan(BelahKetupat &bk, LayangLayang &ll) { // Commit 11: implem
 
 int main() { // Commit 12: buat fungsi main dan panggil object LayangLayang
     cout << "=============================" << endl;
-    cout << "   PROGRAM BANGUN DATAR" << endl; 
+    cout << "   PROGRAM BANGUN DATAR" << endl; // Commit 15: tambah tampilan judul program di main
     cout << "=============================" << endl << endl;
 
     LayangLayang ll;
