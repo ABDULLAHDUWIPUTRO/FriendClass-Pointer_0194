@@ -1,12 +1,13 @@
-// Commit 1: inisialisasi project
-// Commit 2: buat forward declaration class siswa dan class orang
-// Commit 3: tambah variabel private nama pada class orang
-// Commit 4: tambah method setNama dan friend class siswa pada class orang
-// Commit 5: buat class siswa dengan variabel private id
-// Commit 6: tambah method setId dan displayAll pada class siswa
-// Commit 7: implementasi method displayAll milik class siswa
-// Commit 8: implementasi method setNama milik class orang
-// Commit 9: implementasi method setId milik class siswa
+// Commit 1:  inisialisasi project
+// Commit 2:  buat forward declaration class siswa dan class orang
+// Commit 3:  tambah variabel private nama pada class orang
+// Commit 4:  tambah method setNama dan friend class siswa pada class orang
+// Commit 5:  buat class siswa dengan variabel private id
+// Commit 6:  tambah method setId dan displayAll pada class siswa
+// Commit 7:  implementasi method displayAll milik class siswa
+// Commit 8:  implementasi method setNama milik class orang
+// Commit 9:  implementasi method setId milik class siswa
+// Commit 10: buat fungsi main dan buat object orang
 
 #include <iostream>
 #include <string>
@@ -46,4 +47,10 @@ void orang::setNama(string pNama)
 void siswa::setId(int pId)
 {
     id = pId;
+}
+
+int main()
+{
+    orang joko;
+    return 0;
 }
