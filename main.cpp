@@ -84,3 +84,10 @@ int main() { // Commit 12: buat fungsi main dan panggil object LayangLayang
     cout << endl;
     ll.output();
     cout << endl;
+
+    BelahKetupat bk; // Commit 13: tambah object BelahKetupat di fungsi main
+    bk.input();
+    cout << endl;
+    bk.output();
+    cout << endl;
+
