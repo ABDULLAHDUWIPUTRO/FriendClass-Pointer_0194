@@ -55,3 +55,9 @@ class BelahKetupat { // Commit 6:  buat class BelahKetupat dengan variabel priva
         float keliling() {
             return 4 * sisi;
         }
+
+        void output() { // Commit 9:  tambah method output pada BelahKetupat
+            cout << "-- Hasil Belah Ketupat --" << endl;
+            cout << "Luas     : " << luas() << endl;
+            cout << "Keliling : " << keliling() << endl;
+        }
