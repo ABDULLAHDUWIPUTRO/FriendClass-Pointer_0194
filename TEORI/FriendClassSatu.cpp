@@ -3,6 +3,7 @@
 // Commit 3: tambah variabel private nama pada class orang
 // Commit 4: tambah method setNama dan friend class siswa pada class orang
 // Commit 5: buat class siswa dengan variabel private id
+// Commit 6: tambah method setId dan displayAll pada class siswa
 
 #include <iostream>
 #include <string>
@@ -23,4 +24,8 @@ class siswa
 {
 private:
     int id;
+
+public:
+    void setId(int pId);
+    void displayAll(orang &a);
 };
