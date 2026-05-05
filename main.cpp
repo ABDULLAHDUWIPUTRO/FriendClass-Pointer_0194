@@ -35,3 +35,7 @@ class LayangLayang {
 
         friend void kelilingGabungan(BelahKetupat &bk, LayangLayang &ll);
 };
+
+class BelahKetupat { // Commit 6:  buat class BelahKetupat dengan variabel private
+    private:
+        float d1, d2, sisi;
