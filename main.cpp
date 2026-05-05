@@ -27,4 +27,11 @@ class LayangLayang {
             return 2 * (sisi1 + sisi2);
         }
 
-       
+        void output() { // Commit 5:  tambah method output pada LayangLayang
+            cout << "-- Hasil Layang-Layang --" << endl;
+            cout << "Luas     : " << luas() << endl;
+            cout << "Keliling : " << keliling() << endl;
+        }
+
+        friend void kelilingGabungan(BelahKetupat &bk, LayangLayang &ll);
+};
