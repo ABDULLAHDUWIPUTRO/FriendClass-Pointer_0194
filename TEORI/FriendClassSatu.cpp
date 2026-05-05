@@ -5,6 +5,7 @@
 // Commit 5: buat class siswa dengan variabel private id
 // Commit 6: tambah method setId dan displayAll pada class siswa
 // Commit 7: implementasi method displayAll milik class siswa
+// Commit 8: implementasi method setNama milik class orang
 
 #include <iostream>
 #include <string>
@@ -34,4 +35,9 @@ public:
 void siswa::displayAll(orang &a)
 {
     cout << id << endl << a.nama;
+}
+
+void orang::setNama(string pNama)
+{
+    nama = pNama;
 }
