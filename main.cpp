@@ -18,3 +18,13 @@ class LayangLayang {
             cout << "Sisi pendek  : "; cin >> sisi1;
             cout << "Sisi panjang : "; cin >> sisi2;
         }
+
+        float luas() { // Commit 4:  tambah method luas dan keliling pada LayangLayang
+            return (d1 * d2) / 2;
+        }
+
+        float keliling() {
+            return 2 * (sisi1 + sisi2);
+        }
+
+       
