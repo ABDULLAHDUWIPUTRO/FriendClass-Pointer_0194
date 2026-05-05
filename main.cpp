@@ -61,3 +61,6 @@ class BelahKetupat { // Commit 6:  buat class BelahKetupat dengan variabel priva
             cout << "Luas     : " << luas() << endl;
             cout << "Keliling : " << keliling() << endl;
         }
+
+        friend void kelilingGabungan(BelahKetupat &bk, LayangLayang &ll); // Commit 10: tambah deklarasi friend method pada kedua class
+};
